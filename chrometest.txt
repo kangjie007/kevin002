@@ -1,5 +1,0 @@
-本地编辑更新之后 git add chrometest.txt；
-再提交到本地仓库： git commit -m "wrote a chrometest file"
-在本地其他操作忽略直接拉到远程github
-最后提交远程： git push origin master
-

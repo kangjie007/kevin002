@@ -1,0 +1,9 @@
+，运行了命令ls（在Windows系统上应为dir），结果表明Django新建了一个名为
+learning_log的目录。它还创建了一个名为manage.py的文件，这是一个简单的程序，它接受命令
+并将其交给Django的相关部分去运行。我们将使用这些命令来管理诸如使用数据库和运行服务器
+等任务。
+目录learning_log包含4个文件（见），其中最重要的是settings.py、urls.py和wsgi.py。文件
+settings.py指定Django如何与你的系统交互以及如何管理项目。在开发项目的过程中，我们将修
+改其中一些设置，并添加一些设置。文件urls.py告诉Django应创建哪些网页来响应浏览器请求。
+文件wsgi.py帮助Django提供它创建的文件，这个文件名是web server gateway interface（Web服务
+器网关接口）的首字母缩写。
